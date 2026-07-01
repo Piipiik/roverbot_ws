@@ -1,1 +1,0 @@
-/home/yzy/roverbot_ws/src/roverbot_bringup/launch/nav2.launch.py

@@ -1,1 +1,0 @@
-/home/yzy/roverbot_ws/build/roverbot_description/ament_cmake_environment_hooks/local_setup.bash

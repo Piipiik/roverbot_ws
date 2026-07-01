@@ -1,1 +1,0 @@
-/home/yzy/roverbot_ws/src/ldlidar_ros2/launch/viewer_ld14p.launch.py

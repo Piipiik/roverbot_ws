@@ -1,1 +1,0 @@
-/home/yzy/roverbot_ws/src/ldlidar_ros2/scripts/delete_udev_rules.sh
