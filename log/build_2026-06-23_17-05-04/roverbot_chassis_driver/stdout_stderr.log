@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating roverbot_chassis_driver.egg-info
+writing roverbot_chassis_driver.egg-info/PKG-INFO
+writing dependency_links to roverbot_chassis_driver.egg-info/dependency_links.txt
+writing entry points to roverbot_chassis_driver.egg-info/entry_points.txt
+writing requirements to roverbot_chassis_driver.egg-info/requires.txt
+writing top-level names to roverbot_chassis_driver.egg-info/top_level.txt
+writing manifest file 'roverbot_chassis_driver.egg-info/SOURCES.txt'
+reading manifest file 'roverbot_chassis_driver.egg-info/SOURCES.txt'
+writing manifest file 'roverbot_chassis_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot-chassis-driver.egg-link (link to .)
+Installing chassis_serial_node script to /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/roverbot_chassis_driver
+
+Installed /home/yzy/roverbot_ws/build/roverbot_chassis_driver
+running symlink_data
+creating /home/yzy/roverbot_ws/install/roverbot_chassis_driver/share/ament_index
+creating /home/yzy/roverbot_ws/install/roverbot_chassis_driver/share/ament_index/resource_index
+creating /home/yzy/roverbot_ws/install/roverbot_chassis_driver/share/ament_index/resource_index/packages
+symbolically linking /home/yzy/roverbot_ws/build/roverbot_chassis_driver/resource/roverbot_chassis_driver -> /home/yzy/roverbot_ws/install/roverbot_chassis_driver/share/ament_index/resource_index/packages
+symbolically linking /home/yzy/roverbot_ws/build/roverbot_chassis_driver/package.xml -> /home/yzy/roverbot_ws/install/roverbot_chassis_driver/share/roverbot_chassis_driver

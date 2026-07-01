@@ -1,0 +1,27 @@
+[0.067s] Invoking command in '/home/yzy/roverbot_ws/build/roverbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzy/roverbot_ws/build/roverbot_bringup -- -j4 -l4
+[0.293s] Invoked command in '/home/yzy/roverbot_ws/build/roverbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzy/roverbot_ws/build/roverbot_bringup -- -j4 -l4
+[0.343s] Invoking command in '/home/yzy/roverbot_ws/build/roverbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzy/roverbot_ws/build/roverbot_bringup
+[0.387s] -- Install configuration: ""
+[0.392s] -- Execute custom install script
+[0.398s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/launch/bringup.launch.py
+[0.401s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/launch/nav2.launch.py
+[0.404s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/launch/urdf2tf.launch.py
+[0.408s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/config/nav2_view.rviz
+[0.411s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/config/roverbot_nav2_params.yaml
+[0.414s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/lib/roverbot_bringup/odom_calculator.py
+[0.417s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/ament_index/resource_index/package_run_dependencies/roverbot_bringup
+[0.421s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/ament_index/resource_index/parent_prefix_path/roverbot_bringup
+[0.424s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/ament_prefix_path.sh
+[0.428s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/ament_prefix_path.dsv
+[0.431s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/path.sh
+[0.434s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/path.dsv
+[0.438s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.bash
+[0.441s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.sh
+[0.444s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.zsh
+[0.448s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.dsv
+[0.450s] -- Symlinking: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.dsv
+[0.505s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/ament_index/resource_index/packages/roverbot_bringup
+[0.506s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/cmake/roverbot_bringupConfig.cmake
+[0.506s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/cmake/roverbot_bringupConfig-version.cmake
+[0.509s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.xml
+[0.519s] Invoked command in '/home/yzy/roverbot_ws/build/roverbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzy/roverbot_ws/build/roverbot_bringup

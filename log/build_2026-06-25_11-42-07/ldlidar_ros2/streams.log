@@ -1,0 +1,70 @@
+[0.147s] Invoking command in '/home/yzy/roverbot_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble /usr/bin/cmake /home/yzy/roverbot_ws/src/ldlidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/yzy/roverbot_ws/install/ldlidar_ros2
+[0.421s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.571s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.717s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.175s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.195s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.232s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.762s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.781s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.992s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.605s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.867s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.482s] -- operation system is Linux-5.15.0-1103-raspi
+[4.484s] -- current platform: Linux 
+[4.569s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.668s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.672s] -- Configured cppcheck include dirs: /home/yzy/roverbot_ws/src/ldlidar_ros2/include;/home/yzy/roverbot_ws/src/ldlidar_ros2/sdk/include
+[4.674s] -- Configured cppcheck exclude dirs and/or files: 
+[4.752s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.754s] -- Configured cpplint exclude dirs and/or files: 
+[4.762s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.778s] -- Added test 'lint_cmake' to check CMake code style
+[4.791s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.866s] -- Added test 'uncrustify' to check C / C++ code style
+[4.868s] -- Configured uncrustify additional arguments: 
+[4.878s] -- Added test 'xmllint' to check XML markup files
+[4.911s] -- Configuring done
+[5.098s] -- Generating done
+[5.149s] -- Build files have been written to: /home/yzy/roverbot_ws/build/ldlidar_ros2
+[5.186s] Invoked command in '/home/yzy/roverbot_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble /usr/bin/cmake /home/yzy/roverbot_ws/src/ldlidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/yzy/roverbot_ws/install/ldlidar_ros2
+[5.199s] Invoking command in '/home/yzy/roverbot_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble /usr/bin/cmake --build /home/yzy/roverbot_ws/build/ldlidar_ros2 -- -j4 -l4
+[5.617s] [35m[1mConsolidate compiler generated dependencies of target ldlidar_driver[0m
+[5.996s] [ 84%] Built target ldlidar_driver
+[6.067s] [35m[1mConsolidate compiler generated dependencies of target ldlidar_ros2_node[0m
+[6.307s] [100%] Built target ldlidar_ros2_node
+[6.368s] Invoked command in '/home/yzy/roverbot_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble /usr/bin/cmake --build /home/yzy/roverbot_ws/build/ldlidar_ros2 -- -j4 -l4
+[6.394s] Invoking command in '/home/yzy/roverbot_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble /usr/bin/cmake --install /home/yzy/roverbot_ws/build/ldlidar_ros2
+[6.434s] -- Install configuration: ""
+[6.438s] -- Execute custom install script
+[6.441s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/lib/ldlidar_ros2/ldlidar_ros2_node
+[6.444s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld06.launch.py
+[6.452s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14.launch.py
+[6.453s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14p.launch.py
+[6.455s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld19.launch.py
+[6.461s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld06.launch.py
+[6.463s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14.launch.py
+[6.466s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14p.launch.py
+[6.469s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld19.launch.py
+[6.472s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2/ldlidar.rviz
+[6.475s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/create_udev_rules.sh
+[6.480s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/delete_udev_rules.sh
+[6.483s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/ldlidar.rules
+[6.484s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_ros2
+[6.487s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_ros2
+[6.489s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.sh
+[6.498s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.dsv
+[6.504s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.sh
+[6.507s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.dsv
+[6.511s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.bash
+[6.514s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.sh
+[6.516s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.zsh
+[6.518s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.dsv
+[6.519s] -- Symlinking: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.dsv
+[6.570s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ament_index/resource_index/packages/ldlidar_ros2
+[6.579s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config.cmake
+[6.581s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config-version.cmake
+[6.584s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.xml
+[6.607s] Invoked command in '/home/yzy/roverbot_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble /usr/bin/cmake --install /home/yzy/roverbot_ws/build/ldlidar_ros2

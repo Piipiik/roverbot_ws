@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001707] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.001886] (-) JobUnselected: {'identifier': 'roverbot_chassis_driver'}
+[0.001981] (-) JobUnselected: {'identifier': 'roverbot_description'}
+[0.002839] (ldlidar_ros2) JobQueued: {'identifier': 'ldlidar_ros2', 'dependencies': OrderedDict()}
+[0.003527] (roverbot_bringup) JobQueued: {'identifier': 'roverbot_bringup', 'dependencies': OrderedDict()}
+[0.003715] (ldlidar_ros2) JobStarted: {'identifier': 'ldlidar_ros2'}
+[0.033642] (roverbot_bringup) JobStarted: {'identifier': 'roverbot_bringup'}
+[0.057680] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'cmake'}
+[0.062737] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'build'}
+[0.065391] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzy/roverbot_ws/build/ldlidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/yzy/roverbot_ws/build/ldlidar_ros2', 'env': OrderedDict([('USER', 'yzy'), ('SSH_CLIENT', '192.168.43.92 48506 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzy'), ('OLDPWD', '/home/yzy'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '84'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/yzy/roverbot_ws/build/ldlidar_ros2'), ('SSH_CONNECTION', '192.168.43.92 48506 192.168.43.242 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.076342] (roverbot_bringup) JobProgress: {'identifier': 'roverbot_bringup', 'progress': 'cmake'}
+[0.078536] (roverbot_bringup) JobProgress: {'identifier': 'roverbot_bringup', 'progress': 'build'}
+[0.080001] (roverbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzy/roverbot_ws/build/roverbot_bringup', '--', '-j4', '-l4'], 'cwd': '/home/yzy/roverbot_ws/build/roverbot_bringup', 'env': OrderedDict([('USER', 'yzy'), ('SSH_CLIENT', '192.168.43.92 48506 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzy'), ('OLDPWD', '/home/yzy'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '84'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/yzy/roverbot_ws/build/roverbot_bringup'), ('SSH_CONNECTION', '192.168.43.92 48506 192.168.43.242 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099001] (-) TimerEvent: {}
+[0.199470] (-) TimerEvent: {}
+[0.244082] (roverbot_bringup) CommandEnded: {'returncode': 0}
+[0.246343] (roverbot_bringup) JobProgress: {'identifier': 'roverbot_bringup', 'progress': 'install'}
+[0.285896] (roverbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yzy/roverbot_ws/build/roverbot_bringup'], 'cwd': '/home/yzy/roverbot_ws/build/roverbot_bringup', 'env': OrderedDict([('USER', 'yzy'), ('SSH_CLIENT', '192.168.43.92 48506 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzy'), ('OLDPWD', '/home/yzy'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '84'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/yzy/roverbot_ws/build/roverbot_bringup'), ('SSH_CONNECTION', '192.168.43.92 48506 192.168.43.242 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.299831] (-) TimerEvent: {}
+[0.315844] (roverbot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.318056] (roverbot_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.326076] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/launch/bringup.launch.py\n'}
+[0.327159] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/launch/nav2.launch.py\n'}
+[0.328768] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/launch/urdf2tf.launch.py\n'}
+[0.329121] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/config/nav2_view.rviz\n'}
+[0.329598] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/config/roverbot_nav2_params.yaml\n'}
+[0.330112] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/lib/roverbot_bringup/odom_calculator.py\n'}
+[0.330480] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/ament_index/resource_index/package_run_dependencies/roverbot_bringup\n'}
+[0.333761] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/ament_index/resource_index/parent_prefix_path/roverbot_bringup\n'}
+[0.334964] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/ament_prefix_path.sh\n'}
+[0.335842] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/ament_prefix_path.dsv\n'}
+[0.336248] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/path.sh\n'}
+[0.337196] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/path.dsv\n'}
+[0.338011] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.bash\n'}
+[0.338370] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.sh\n'}
+[0.339126] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.zsh\n'}
+[0.340289] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.dsv\n'}
+[0.340896] (roverbot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.dsv\n'}
+[0.379545] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/ament_index/resource_index/packages/roverbot_bringup\n'}
+[0.380547] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/cmake/roverbot_bringupConfig.cmake\n'}
+[0.381292] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/cmake/roverbot_bringupConfig-version.cmake\n'}
+[0.382603] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.xml\n'}
+[0.389880] (roverbot_bringup) CommandEnded: {'returncode': 0}
+[0.399983] (-) TimerEvent: {}
+[0.500440] (roverbot_bringup) JobEnded: {'identifier': 'roverbot_bringup', 'rc': 0}
+[0.502896] (-) TimerEvent: {}
+[0.503086] (ldlidar_ros2) StdoutLine: {'line': b'[ 84%] Built target ldlidar_driver\n'}
+[0.594758] (ldlidar_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_ros2_node\n'}
+[0.603060] (-) TimerEvent: {}
+[0.632656] (ldlidar_ros2) CommandEnded: {'returncode': 0}
+[0.642061] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'install'}
+[0.642991] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yzy/roverbot_ws/build/ldlidar_ros2'], 'cwd': '/home/yzy/roverbot_ws/build/ldlidar_ros2', 'env': OrderedDict([('USER', 'yzy'), ('SSH_CLIENT', '192.168.43.92 48506 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzy'), ('OLDPWD', '/home/yzy'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '84'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/yzy/roverbot_ws/build/ldlidar_ros2'), ('SSH_CONNECTION', '192.168.43.92 48506 192.168.43.242 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.683326] (ldlidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.686166] (ldlidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.689940] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/lib/ldlidar_ros2/ldlidar_ros2_node\n'}
+[0.694656] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld06.launch.py\n'}
+[0.697062] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14.launch.py\n'}
+[0.699341] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14p.launch.py\n'}
+[0.700677] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld19.launch.py\n'}
+[0.702128] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld06.launch.py\n'}
+[0.703152] (-) TimerEvent: {}
+[0.703582] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14.launch.py\n'}
+[0.704813] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14p.launch.py\n'}
+[0.706241] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld19.launch.py\n'}
+[0.707655] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2/ldlidar.rviz\n'}
+[0.710028] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/create_udev_rules.sh\n'}
+[0.711483] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/delete_udev_rules.sh\n'}
+[0.713229] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/ldlidar.rules\n'}
+[0.715535] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_ros2\n'}
+[0.717804] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_ros2\n'}
+[0.719629] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.720847] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.724992] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.sh\n'}
+[0.725521] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.dsv\n'}
+[0.726383] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.bash\n'}
+[0.727576] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.sh\n'}
+[0.729511] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.zsh\n'}
+[0.730583] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.dsv\n'}
+[0.731525] (ldlidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.dsv\n'}
+[0.769293] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ament_index/resource_index/packages/ldlidar_ros2\n'}
+[0.776555] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config.cmake\n'}
+[0.777975] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config-version.cmake\n'}
+[0.779092] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.xml\n'}
+[0.787073] (ldlidar_ros2) CommandEnded: {'returncode': 0}
+[0.803634] (-) TimerEvent: {}
+[0.866420] (ldlidar_ros2) JobEnded: {'identifier': 'ldlidar_ros2', 'rc': 0}
+[0.870308] (-) EventReactorShutdown: {}

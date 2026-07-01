@@ -1,0 +1,1 @@
+/home/yzy/roverbot_ws/build/astra_camera_msgs/ament_cmake_core/astra_camera_msgsConfig-version.cmake

@@ -1,0 +1,21 @@
+[5.515s] Invoking command in '/home/yzy/roverbot_ws/src/roverbot_chassis_driver': PYTHONPATH=/home/yzy/roverbot_ws/build/roverbot_chassis_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roverbot_chassis_driver build --build-base /home/yzy/roverbot_ws/build/roverbot_chassis_driver/build install --record /home/yzy/roverbot_ws/build/roverbot_chassis_driver/install.log --single-version-externally-managed install_data
+[7.379s] running egg_info
+[7.384s] writing ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/PKG-INFO
+[7.385s] writing dependency_links to ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/dependency_links.txt
+[7.386s] writing entry points to ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/entry_points.txt
+[7.388s] writing requirements to ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/requires.txt
+[7.389s] writing top-level names to ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/top_level.txt
+[7.398s] reading manifest file '../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/SOURCES.txt'
+[7.409s] writing manifest file '../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/SOURCES.txt'
+[7.410s] running build
+[7.411s] running build_py
+[7.412s] running install
+[7.414s] running install_lib
+[7.420s] running install_data
+[7.421s] running install_egg_info
+[7.430s] removing '/home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot_chassis_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[7.432s] Copying ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info to /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot_chassis_driver-0.0.0-py3.10.egg-info
+[7.449s] running install_scripts
+[7.544s] Installing chassis_serial_node script to /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/roverbot_chassis_driver
+[7.547s] writing list of installed files to '/home/yzy/roverbot_ws/build/roverbot_chassis_driver/install.log'
+[7.709s] Invoked command in '/home/yzy/roverbot_ws/src/roverbot_chassis_driver' returned '0': PYTHONPATH=/home/yzy/roverbot_ws/build/roverbot_chassis_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roverbot_chassis_driver build --build-base /home/yzy/roverbot_ws/build/roverbot_chassis_driver/build install --record /home/yzy/roverbot_ws/build/roverbot_chassis_driver/install.log --single-version-externally-managed install_data

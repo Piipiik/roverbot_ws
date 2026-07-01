@@ -1,0 +1,1 @@
+/home/yzy/roverbot_ws/build/astra_camera_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

@@ -1,0 +1,1 @@
+/home/yzy/roverbot_ws/build/astra_camera_msgs/rosidl_generator_rs/astra_camera_msgs/rust/src/srv/rmw.rs

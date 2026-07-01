@@ -1,0 +1,1 @@
+/home/yzy/roverbot_ws/build/astra_camera_msgs/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

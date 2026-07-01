@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000549] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000655] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000729] (-) JobUnselected: {'identifier': 'ldlidar_ros2'}
+[0.000797] (-) JobUnselected: {'identifier': 'roverbot_bringup'}
+[0.000865] (-) JobUnselected: {'identifier': 'roverbot_description'}
+[0.000940] (roverbot_chassis_driver) JobQueued: {'identifier': 'roverbot_chassis_driver', 'dependencies': OrderedDict()}
+[0.001760] (roverbot_chassis_driver) JobStarted: {'identifier': 'roverbot_chassis_driver'}
+[0.099000] (-) TimerEvent: {}
+[0.199403] (-) TimerEvent: {}
+[0.299745] (-) TimerEvent: {}
+[0.400223] (-) TimerEvent: {}
+[0.500644] (-) TimerEvent: {}
+[0.600978] (-) TimerEvent: {}
+[0.701293] (-) TimerEvent: {}
+[0.801582] (-) TimerEvent: {}
+[0.901950] (-) TimerEvent: {}
+[1.002415] (-) TimerEvent: {}
+[1.102744] (-) TimerEvent: {}
+[1.203281] (-) TimerEvent: {}
+[1.304041] (-) TimerEvent: {}
+[1.404404] (-) TimerEvent: {}
+[1.504740] (-) TimerEvent: {}
+[1.605091] (-) TimerEvent: {}
+[1.705407] (-) TimerEvent: {}
+[1.805721] (-) TimerEvent: {}
+[1.906123] (-) TimerEvent: {}
+[2.006511] (-) TimerEvent: {}
+[2.106827] (-) TimerEvent: {}
+[2.207176] (-) TimerEvent: {}
+[2.307534] (-) TimerEvent: {}
+[2.407843] (-) TimerEvent: {}
+[2.508186] (-) TimerEvent: {}
+[2.608520] (-) TimerEvent: {}
+[2.708848] (-) TimerEvent: {}
+[2.809262] (-) TimerEvent: {}
+[2.909674] (-) TimerEvent: {}
+[3.010215] (-) TimerEvent: {}
+[3.050916] (roverbot_chassis_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/yzy/roverbot_ws/build/roverbot_chassis_driver/build'], 'cwd': '/home/yzy/roverbot_ws/build/roverbot_chassis_driver', 'env': {'USER': 'yzy', 'SSH_CLIENT': '192.168.43.92 46142 22', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yzy', 'OLDPWD': '/home/yzy', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '24', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'PWD': '/home/yzy/roverbot_ws/build/roverbot_chassis_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.43.92 46142 192.168.43.242 22', 'PYTHONPATH': '/home/yzy/roverbot_ws/build/roverbot_chassis_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.110378] (-) TimerEvent: {}
+[3.210819] (-) TimerEvent: {}
+[3.311268] (-) TimerEvent: {}
+[3.411665] (-) TimerEvent: {}
+[3.511999] (-) TimerEvent: {}
+[3.612313] (-) TimerEvent: {}
+[3.712611] (-) TimerEvent: {}
+[3.812908] (-) TimerEvent: {}
+[3.913215] (-) TimerEvent: {}
+[4.013566] (-) TimerEvent: {}
+[4.113918] (-) TimerEvent: {}
+[4.214328] (-) TimerEvent: {}
+[4.234646] (roverbot_chassis_driver) StdoutLine: {'line': b'running develop\n'}
+[4.314466] (-) TimerEvent: {}
+[4.414781] (-) TimerEvent: {}
+[4.515130] (-) TimerEvent: {}
+[4.615440] (-) TimerEvent: {}
+[4.715804] (-) TimerEvent: {}
+[4.816145] (-) TimerEvent: {}
+[4.916450] (-) TimerEvent: {}
+[5.016759] (-) TimerEvent: {}
+[5.062020] (roverbot_chassis_driver) StdoutLine: {'line': b'Removing /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot-chassis-driver.egg-link (link to .)\n'}
+[5.116992] (-) TimerEvent: {}
+[5.195852] (roverbot_chassis_driver) CommandEnded: {'returncode': 0}
+[5.199145] (roverbot_chassis_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/roverbot_chassis_driver', 'build', '--build-base', '/home/yzy/roverbot_ws/build/roverbot_chassis_driver/build', 'install', '--record', '/home/yzy/roverbot_ws/build/roverbot_chassis_driver/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/yzy/roverbot_ws/src/roverbot_chassis_driver', 'env': {'USER': 'yzy', 'SSH_CLIENT': '192.168.43.92 46142 22', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yzy', 'OLDPWD': '/home/yzy', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '24', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'PWD': '/home/yzy/roverbot_ws/build/roverbot_chassis_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.43.92 46142 192.168.43.242 22', 'PYTHONPATH': '/home/yzy/roverbot_ws/build/roverbot_chassis_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1'}, 'shell': False}
+[5.217188] (-) TimerEvent: {}
+[5.317585] (-) TimerEvent: {}
+[5.417893] (-) TimerEvent: {}
+[5.518258] (-) TimerEvent: {}
+[5.618610] (-) TimerEvent: {}
+[5.718907] (-) TimerEvent: {}
+[5.819211] (-) TimerEvent: {}
+[5.919630] (-) TimerEvent: {}
+[6.020070] (-) TimerEvent: {}
+[6.120398] (-) TimerEvent: {}
+[6.220713] (-) TimerEvent: {}
+[6.310049] (roverbot_chassis_driver) StdoutLine: {'line': b'running egg_info\n'}
+[6.313042] (roverbot_chassis_driver) StdoutLine: {'line': b'writing ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/PKG-INFO\n'}
+[6.314269] (roverbot_chassis_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/dependency_links.txt\n'}
+[6.315186] (roverbot_chassis_driver) StdoutLine: {'line': b'writing entry points to ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/entry_points.txt\n'}
+[6.315997] (roverbot_chassis_driver) StdoutLine: {'line': b'writing requirements to ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/requires.txt\n'}
+[6.316721] (roverbot_chassis_driver) StdoutLine: {'line': b'writing top-level names to ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/top_level.txt\n'}
+[6.320843] (-) TimerEvent: {}
+[6.329227] (roverbot_chassis_driver) StdoutLine: {'line': b"reading manifest file '../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/SOURCES.txt'\n"}
+[6.334152] (roverbot_chassis_driver) StdoutLine: {'line': b"writing manifest file '../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info/SOURCES.txt'\n"}
+[6.335009] (roverbot_chassis_driver) StdoutLine: {'line': b'running build\n'}
+[6.336582] (roverbot_chassis_driver) StdoutLine: {'line': b'running build_py\n'}
+[6.336988] (roverbot_chassis_driver) StdoutLine: {'line': b'creating /home/yzy/roverbot_ws/build/roverbot_chassis_driver/build\n'}
+[6.337325] (roverbot_chassis_driver) StdoutLine: {'line': b'creating /home/yzy/roverbot_ws/build/roverbot_chassis_driver/build/lib\n'}
+[6.338036] (roverbot_chassis_driver) StdoutLine: {'line': b'creating /home/yzy/roverbot_ws/build/roverbot_chassis_driver/build/lib/roverbot_chassis_driver\n'}
+[6.338789] (roverbot_chassis_driver) StdoutLine: {'line': b'copying roverbot_chassis_driver/chassis_serial_node.py -> /home/yzy/roverbot_ws/build/roverbot_chassis_driver/build/lib/roverbot_chassis_driver\n'}
+[6.339149] (roverbot_chassis_driver) StdoutLine: {'line': b'copying roverbot_chassis_driver/__init__.py -> /home/yzy/roverbot_ws/build/roverbot_chassis_driver/build/lib/roverbot_chassis_driver\n'}
+[6.339546] (roverbot_chassis_driver) StdoutLine: {'line': b'running install\n'}
+[6.340344] (roverbot_chassis_driver) StdoutLine: {'line': b'running install_lib\n'}
+[6.343201] (roverbot_chassis_driver) StdoutLine: {'line': b'creating /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot_chassis_driver\n'}
+[6.344064] (roverbot_chassis_driver) StdoutLine: {'line': b'copying /home/yzy/roverbot_ws/build/roverbot_chassis_driver/build/lib/roverbot_chassis_driver/chassis_serial_node.py -> /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot_chassis_driver\n'}
+[6.344676] (roverbot_chassis_driver) StdoutLine: {'line': b'copying /home/yzy/roverbot_ws/build/roverbot_chassis_driver/build/lib/roverbot_chassis_driver/__init__.py -> /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot_chassis_driver\n'}
+[6.347087] (roverbot_chassis_driver) StdoutLine: {'line': b'byte-compiling /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot_chassis_driver/chassis_serial_node.py to chassis_serial_node.cpython-310.pyc\n'}
+[6.356867] (roverbot_chassis_driver) StdoutLine: {'line': b'byte-compiling /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot_chassis_driver/__init__.py to __init__.cpython-310.pyc\n'}
+[6.357914] (roverbot_chassis_driver) StdoutLine: {'line': b'running install_data\n'}
+[6.358698] (roverbot_chassis_driver) StdoutLine: {'line': b'copying resource/roverbot_chassis_driver -> /home/yzy/roverbot_ws/install/roverbot_chassis_driver/share/ament_index/resource_index/packages\n'}
+[6.359404] (roverbot_chassis_driver) StdoutLine: {'line': b'copying package.xml -> /home/yzy/roverbot_ws/install/roverbot_chassis_driver/share/roverbot_chassis_driver\n'}
+[6.366342] (roverbot_chassis_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.374813] (roverbot_chassis_driver) StdoutLine: {'line': b'Copying ../../build/roverbot_chassis_driver/roverbot_chassis_driver.egg-info to /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/python3.10/site-packages/roverbot_chassis_driver-0.0.0-py3.10.egg-info\n'}
+[6.381997] (roverbot_chassis_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[6.421004] (-) TimerEvent: {}
+[6.458231] (roverbot_chassis_driver) StdoutLine: {'line': b'Installing chassis_serial_node script to /home/yzy/roverbot_ws/install/roverbot_chassis_driver/lib/roverbot_chassis_driver\n'}
+[6.459903] (roverbot_chassis_driver) StdoutLine: {'line': b"writing list of installed files to '/home/yzy/roverbot_ws/build/roverbot_chassis_driver/install.log'\n"}
+[6.521272] (-) TimerEvent: {}
+[6.577833] (roverbot_chassis_driver) CommandEnded: {'returncode': 0}
+[6.621508] (-) TimerEvent: {}
+[6.655431] (roverbot_chassis_driver) JobEnded: {'identifier': 'roverbot_chassis_driver', 'rc': 0}
+[6.657714] (-) EventReactorShutdown: {}

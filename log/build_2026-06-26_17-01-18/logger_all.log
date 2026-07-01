@@ -1,0 +1,206 @@
+[1.004s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'roverbot_bringup']
+[1.004s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['roverbot_bringup'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff898fc0a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff89a99570>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff89a99570>>)
+[2.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.915s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yzy/roverbot_ws'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'ignore'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'ignore_ament_install'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extensions ['colcon_pkg']
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'colcon_pkg'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extensions ['colcon_meta']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'colcon_meta'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extensions ['ros']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'ros'
+[3.049s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldlidar_ros2' with type 'ros.ament_cmake' and name 'ldlidar_ros2'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore_ament_install'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_pkg']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_pkg'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_meta']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_meta'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ros']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ros'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['cmake', 'python']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'cmake'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['python_setup_py']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python_setup_py'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore'
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ros']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ros'
+[3.076s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[3.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[3.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[3.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_bringup) by extension 'ignore'
+[3.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_bringup) by extension 'ignore_ament_install'
+[3.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_bringup) by extensions ['colcon_pkg']
+[3.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_bringup) by extension 'colcon_pkg'
+[3.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_bringup) by extensions ['colcon_meta']
+[3.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_bringup) by extension 'colcon_meta'
+[3.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_bringup) by extensions ['ros']
+[3.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_bringup) by extension 'ros'
+[3.091s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roverbot_bringup' with type 'ros.ament_cmake' and name 'roverbot_bringup'
+[3.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_chassis_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_chassis_driver) by extension 'ignore'
+[3.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_chassis_driver) by extension 'ignore_ament_install'
+[3.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_chassis_driver) by extensions ['colcon_pkg']
+[3.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_chassis_driver) by extension 'colcon_pkg'
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_chassis_driver) by extensions ['colcon_meta']
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_chassis_driver) by extension 'colcon_meta'
+[3.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_chassis_driver) by extensions ['ros']
+[3.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_chassis_driver) by extension 'ros'
+[3.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roverbot_chassis_driver' with type 'ros.ament_python' and name 'roverbot_chassis_driver'
+[3.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_description) by extension 'ignore'
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_description) by extension 'ignore_ament_install'
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_description) by extensions ['colcon_pkg']
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_description) by extension 'colcon_pkg'
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_description) by extensions ['colcon_meta']
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_description) by extension 'colcon_meta'
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_description) by extensions ['ros']
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/roverbot_description) by extension 'ros'
+[3.108s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roverbot_description' with type 'ros.ament_cmake' and name 'roverbot_description'
+[3.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.354s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astra_camera_msgs' in 'src/ros2_astra_camera/astra_camera_msgs'
+[3.354s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ldlidar_ros2' in 'src/ldlidar_ros2'
+[3.354s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'roverbot_chassis_driver' in 'src/roverbot_chassis_driver'
+[3.354s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'roverbot_description' in 'src/roverbot_description'
+[3.354s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astra_camera' in 'src/ros2_astra_camera/astra_camera'
+[3.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[3.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.699s] Level 5:colcon.colcon_core.verb:set package 'roverbot_bringup' build argument 'cmake_args' from command line to 'None'
+[3.699s] Level 5:colcon.colcon_core.verb:set package 'roverbot_bringup' build argument 'cmake_target' from command line to 'None'
+[3.699s] Level 5:colcon.colcon_core.verb:set package 'roverbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'roverbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'roverbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'roverbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'roverbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'roverbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'roverbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.701s] DEBUG:colcon.colcon_core.verb:Building package 'roverbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzy/roverbot_ws/build/roverbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzy/roverbot_ws/install/roverbot_bringup', 'merge_install': False, 'path': '/home/yzy/roverbot_ws/src/roverbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[3.701s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzy/roverbot_ws/src/roverbot_bringup' with build type 'ament_cmake'
+[3.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzy/roverbot_ws/src/roverbot_bringup'
+[3.742s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.744s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzy/roverbot_ws/build/roverbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzy/roverbot_ws/build/roverbot_bringup -- -j4 -l4
+[4.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzy/roverbot_ws/build/roverbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzy/roverbot_ws/build/roverbot_bringup -- -j4 -l4
+[4.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzy/roverbot_ws/build/roverbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzy/roverbot_ws/build/roverbot_bringup
+[4.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverbot_bringup)
+[4.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzy/roverbot_ws/build/roverbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzy/roverbot_ws/build/roverbot_bringup
+[4.466s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup' for CMake module files
+[4.473s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup' for CMake config files
+[4.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverbot_bringup', 'cmake_prefix_path')
+[4.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/hook/cmake_prefix_path.ps1'
+[4.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/hook/cmake_prefix_path.dsv'
+[4.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/hook/cmake_prefix_path.sh'
+[4.504s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/lib'
+[4.505s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/bin'
+[4.505s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/lib/pkgconfig/roverbot_bringup.pc'
+[4.506s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/lib/python3.10/site-packages'
+[4.508s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/bin'
+[4.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.ps1'
+[4.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.dsv'
+[4.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.sh'
+[4.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.bash'
+[4.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.zsh'
+[4.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzy/roverbot_ws/install/roverbot_bringup/share/colcon-core/packages/roverbot_bringup)
+[4.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roverbot_bringup)
+[4.552s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup' for CMake module files
+[4.555s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup' for CMake config files
+[4.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('roverbot_bringup', 'cmake_prefix_path')
+[4.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/hook/cmake_prefix_path.ps1'
+[4.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/hook/cmake_prefix_path.dsv'
+[4.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/hook/cmake_prefix_path.sh'
+[4.573s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/lib'
+[4.574s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/bin'
+[4.574s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/lib/pkgconfig/roverbot_bringup.pc'
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/lib/python3.10/site-packages'
+[4.577s] Level 1:colcon.colcon_core.environment:checking '/home/yzy/roverbot_ws/install/roverbot_bringup/bin'
+[4.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.ps1'
+[4.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.dsv'
+[4.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.sh'
+[4.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.bash'
+[4.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.zsh'
+[4.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzy/roverbot_ws/install/roverbot_bringup/share/colcon-core/packages/roverbot_bringup)
+[4.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.601s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.604s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzy/roverbot_ws/install/local_setup.ps1'
+[4.612s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yzy/roverbot_ws/install/_local_setup_util_ps1.py'
+[4.620s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzy/roverbot_ws/install/setup.ps1'
+[4.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzy/roverbot_ws/install/local_setup.sh'
+[4.631s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yzy/roverbot_ws/install/_local_setup_util_sh.py'
+[4.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzy/roverbot_ws/install/setup.sh'
+[4.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzy/roverbot_ws/install/local_setup.bash'
+[4.649s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzy/roverbot_ws/install/setup.bash'
+[4.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzy/roverbot_ws/install/local_setup.zsh'
+[4.660s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzy/roverbot_ws/install/setup.zsh'

@@ -1,0 +1,137 @@
+[0.080s] Invoking command in '/home/yzy/roverbot_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs:/home/yzy/roverbot_ws/install/roverbot_description:/home/yzy/roverbot_ws/install/roverbot_bringup:/home/yzy/roverbot_ws/install/ldlidar_ros2:/home/yzy/roverbot_ws/install/astra_camera:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs/lib:/home/yzy/roverbot_ws/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/yzy/roverbot_ws/src/ros2_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/home/yzy/roverbot_ws/install/astra_camera
+[0.139s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.823s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.877s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.883s] -- Found astra_camera_msgs: 1.0.1 (/home/yzy/roverbot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+[1.058s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.069s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.095s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.518s] -- Found camera_info_manager: 3.1.12 (/opt/ros/humble/share/camera_info_manager/cmake)
+[1.644s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.652s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.730s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.936s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[1.958s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.046s] -- Found message_filters: 4.3.15 (/opt/ros/humble/share/message_filters/cmake)
+[2.075s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[2.091s] -- Found image_publisher: 3.0.9 (/opt/ros/humble/share/image_publisher/cmake)
+[2.687s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[2.771s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[2.792s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[3.156s] -- Found tf2_sensor_msgs: 0.25.20 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[3.247s] -- ORRBEC Machine : aarch64
+[3.247s] 
+[3.248s] -- ORRBEC Machine Bits : 64
+[3.248s] 
+[3.249s] -- ORRBEC : arm64
+[3.443s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.823s] -- Configuring done
+[4.643s] -- Generating done
+[4.721s] -- Build files have been written to: /home/yzy/roverbot_ws/build/astra_camera
+[4.761s] Invoked command in '/home/yzy/roverbot_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs:/home/yzy/roverbot_ws/install/roverbot_description:/home/yzy/roverbot_ws/install/roverbot_bringup:/home/yzy/roverbot_ws/install/ldlidar_ros2:/home/yzy/roverbot_ws/install/astra_camera:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs/lib:/home/yzy/roverbot_ws/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/yzy/roverbot_ws/src/ros2_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/home/yzy/roverbot_ws/install/astra_camera
+[4.770s] Invoking command in '/home/yzy/roverbot_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs:/home/yzy/roverbot_ws/install/roverbot_description:/home/yzy/roverbot_ws/install/roverbot_bringup:/home/yzy/roverbot_ws/install/ldlidar_ros2:/home/yzy/roverbot_ws/install/astra_camera:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs/lib:/home/yzy/roverbot_ws/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzy/roverbot_ws/build/astra_camera -- -j4 -l4
+[5.035s] [35m[1mConsolidate compiler generated dependencies of target astra_camera[0m
+[5.492s] [ 68%] Built target astra_camera
+[5.551s] [35m[1mConsolidate compiler generated dependencies of target clean_shm_node[0m
+[5.564s] [35m[1mConsolidate compiler generated dependencies of target list_devices_node[0m
+[5.565s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_node[0m
+[5.634s] [ 78%] Built target clean_shm_node
+[5.669s] [ 89%] Built target list_devices_node
+[5.707s] [100%] Built target astra_camera_node
+[5.749s] Invoked command in '/home/yzy/roverbot_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs:/home/yzy/roverbot_ws/install/roverbot_description:/home/yzy/roverbot_ws/install/roverbot_bringup:/home/yzy/roverbot_ws/install/ldlidar_ros2:/home/yzy/roverbot_ws/install/astra_camera:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs/lib:/home/yzy/roverbot_ws/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yzy/roverbot_ws/build/astra_camera -- -j4 -l4
+[5.766s] Invoking command in '/home/yzy/roverbot_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs:/home/yzy/roverbot_ws/install/roverbot_description:/home/yzy/roverbot_ws/install/roverbot_bringup:/home/yzy/roverbot_ws/install/ldlidar_ros2:/home/yzy/roverbot_ws/install/astra_camera:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs/lib:/home/yzy/roverbot_ws/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yzy/roverbot_ws/build/astra_camera
+[5.796s] -- Install configuration: "Debug"
+[5.798s] -- Execute custom install script
+[5.799s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/lib/libastra_camera.so
+[5.800s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/lib//libOpenNI2.so
+[5.809s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[5.810s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[5.811s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[5.814s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[5.815s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/lib/astra_camera//list_devices_node
+[5.816s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/lib/astra_camera//clean_shm_node
+[5.818s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/lib/astra_camera//astra_camera_node
+[5.830s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/constants.h
+[5.832s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/dynamic_params.h
+[5.833s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/json.hpp
+[5.835s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/ob_camera_node.h
+[5.837s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[5.839s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/ob_context.h
+[5.840s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[5.842s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[5.844s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_proc.h
+[5.845s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[5.846s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[5.848s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/ros_param_backend.h
+[5.849s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/types.h
+[5.851s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/utils.h
+[5.853s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[5.854s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/magic_enum/magic_enum.hpp
+[5.855s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[5.857s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[5.858s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[5.860s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/KinectProperties.h
+[5.861s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[5.863s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[5.864s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[5.866s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OniCAPI.h
+[5.867s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OniCEnums.h
+[5.868s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OniCProperties.h
+[5.870s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OniCTypes.h
+[5.871s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OniEnums.h
+[5.872s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OniPlatform.h
+[5.874s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OniProperties.h
+[5.875s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OniTest.h
+[5.877s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OniVersion.h
+[5.878s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/OpenNI.h
+[5.880s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/PS1080.h
+[5.881s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/PSLink.h
+[5.882s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/PrimeSense.h
+[5.884s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/SonixCamera.h
+[5.885s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/include/openni2/util.h
+[5.890s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/.gitkeep
+[5.891s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/astra.launch.xml
+[5.892s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/astra_pro.launch.xml
+[5.893s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/astro_pro_plus.launch.xml
+[5.895s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/dabai_dc1.launch.xml
+[5.896s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.xml
+[5.898s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.xml
+[5.899s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.xml
+[5.901s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.xml
+[5.902s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/deeyea.launch.xml
+[5.903s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/embedded_s.launch.xml
+[5.905s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/embedded_u3.launch.xml
+[5.906s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/gemini.launch.xml
+[5.908s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/gemini_e.launch.xml
+[5.909s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/gemini_e_lite.launch.xml
+[5.911s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/list_devices.launch.xml
+[5.912s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/multi_astra.launch.xml
+[5.913s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.xml
+[5.915s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.xml
+[5.916s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/multi_deeyea.launch.xml
+[5.918s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/multi_gemini.launch.xml
+[5.919s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/stereo_s.launch.xml
+[5.921s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera//launch/stereo_s_u3.launch.xml
+[5.923s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+[5.924s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[5.925s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[5.927s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[5.928s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[5.930s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[5.931s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/environment/path.sh
+[5.932s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+[5.934s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/local_setup.bash
+[5.935s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/local_setup.sh
+[5.937s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+[5.938s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+[5.938s] -- Symlinking: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/package.dsv
+[5.976s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[5.983s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.985s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[5.987s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.989s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[5.990s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[5.992s] -- Up-to-date symlink: /home/yzy/roverbot_ws/install/astra_camera/share/astra_camera/package.xml
+[6.001s] Invoked command in '/home/yzy/roverbot_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs:/home/yzy/roverbot_ws/install/roverbot_description:/home/yzy/roverbot_ws/install/roverbot_bringup:/home/yzy/roverbot_ws/install/ldlidar_ros2:/home/yzy/roverbot_ws/install/astra_camera:/home/yzy/roverbot_ws/install/roverbot_chassis_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yzy/roverbot_ws/install/astra_camera_msgs/lib:/home/yzy/roverbot_ws/install/astra_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yzy/roverbot_ws/build/astra_camera

@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000646] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.002511] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.011962] (-) JobUnselected: {'identifier': 'ldlidar_ros2'}
+[0.012170] (-) JobUnselected: {'identifier': 'roverbot_chassis_driver'}
+[0.012433] (-) JobUnselected: {'identifier': 'roverbot_description'}
+[0.012635] (roverbot_bringup) JobQueued: {'identifier': 'roverbot_bringup', 'dependencies': OrderedDict()}
+[0.012831] (roverbot_bringup) JobStarted: {'identifier': 'roverbot_bringup'}
+[0.048505] (roverbot_bringup) JobProgress: {'identifier': 'roverbot_bringup', 'progress': 'cmake'}
+[0.052387] (roverbot_bringup) JobProgress: {'identifier': 'roverbot_bringup', 'progress': 'build'}
+[0.055561] (roverbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzy/roverbot_ws/build/roverbot_bringup', '--', '-j4', '-l4'], 'cwd': '/home/yzy/roverbot_ws/build/roverbot_bringup', 'env': OrderedDict([('USER', 'yzy'), ('SSH_CLIENT', '192.168.43.92 47772 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzy'), ('OLDPWD', '/home/yzy'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '50'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/yzy/roverbot_ws/build/roverbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.92 47772 192.168.43.242 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099005] (-) TimerEvent: {}
+[0.199542] (-) TimerEvent: {}
+[0.223613] (roverbot_bringup) CommandEnded: {'returncode': 0}
+[0.225581] (roverbot_bringup) JobProgress: {'identifier': 'roverbot_bringup', 'progress': 'install'}
+[0.266461] (roverbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yzy/roverbot_ws/build/roverbot_bringup'], 'cwd': '/home/yzy/roverbot_ws/build/roverbot_bringup', 'env': OrderedDict([('USER', 'yzy'), ('SSH_CLIENT', '192.168.43.92 47772 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzy'), ('OLDPWD', '/home/yzy'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '50'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/yzy/roverbot_ws/build/roverbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.92 47772 192.168.43.242 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.299725] (-) TimerEvent: {}
+[0.309935] (roverbot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.310762] (roverbot_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.311313] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/launch/bringup.launch.py\n'}
+[0.311794] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/launch/nav2.launch.py\n'}
+[0.312638] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/launch/urdf2tf.launch.py\n'}
+[0.313727] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/config/roverbot_nav2_params.yaml\n'}
+[0.314436] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/lib/roverbot_bringup/odom_calculator.py\n'}
+[0.315372] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/ament_index/resource_index/package_run_dependencies/roverbot_bringup\n'}
+[0.316700] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/ament_index/resource_index/parent_prefix_path/roverbot_bringup\n'}
+[0.318959] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/ament_prefix_path.sh\n'}
+[0.320311] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/ament_prefix_path.dsv\n'}
+[0.322560] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/path.sh\n'}
+[0.323195] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/environment/path.dsv\n'}
+[0.325961] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.bash\n'}
+[0.326529] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.sh\n'}
+[0.326845] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.zsh\n'}
+[0.328093] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/local_setup.dsv\n'}
+[0.328629] (roverbot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.dsv\n'}
+[0.385787] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/ament_index/resource_index/packages/roverbot_bringup\n'}
+[0.387091] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/cmake/roverbot_bringupConfig.cmake\n'}
+[0.390162] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/cmake/roverbot_bringupConfig-version.cmake\n'}
+[0.390854] (roverbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yzy/roverbot_ws/install/roverbot_bringup/share/roverbot_bringup/package.xml\n'}
+[0.398039] (roverbot_bringup) CommandEnded: {'returncode': 0}
+[0.400066] (-) TimerEvent: {}
+[0.500724] (-) TimerEvent: {}
+[0.509814] (roverbot_bringup) JobEnded: {'identifier': 'roverbot_bringup', 'rc': 0}
+[0.512836] (-) EventReactorShutdown: {}
